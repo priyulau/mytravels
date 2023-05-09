@@ -43,7 +43,7 @@ nav a{
     right:0;
     left:0;
     bottom:0;
-    height:600px;
+    height:500px;
     width:100%;
     opacity: 60%;
     z-index: -1; /*Places background behind other elements*/
@@ -117,19 +117,31 @@ h1{
     text-align: center;
 }
 
+.row{
+    display:flex;
+}
 .textsection{
-    float:left;
-    width: 70%;
-    margin: auto;
+    background-color: none;
+    height: 500px;
+    flex:60%;
+    margin: 10px 50px;
 }
 
-.picsection{
-    float:right;
-    width: 30%;
-    margin: auto;
-    object-fit: contain; /*Maintains image aspect ratio*/
-
+.picsection{ /*This is the container*/
+    background-color: none;
+    flex: 40%;
+    margin: 50px;
+    /*Centered picture horizontally*/
+    display: flex;
+    justify-content: center;
+    /*Centered picture vertically*/
+    align-items: center;
     }
+
+.profilepic{ /*This is the actual image*/
+    height: 350px;
+    width: auto;
+}
 .contactform{
     text-align: left;
     /*Needed to specify width then set margin to auto to center*/
@@ -138,7 +150,8 @@ h1{
 
 }
 footer{
-    position: relative;
+    background-color: black;
+    position: fixed;
     bottom:0;
     height:30px;
     width:100%;
