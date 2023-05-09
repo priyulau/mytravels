@@ -53,7 +53,7 @@ nav a{
     color:white;
     width:250px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%); /*This makes it centered no matter what view*/
