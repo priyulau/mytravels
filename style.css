@@ -124,7 +124,7 @@ h1{
     background-color: none;
     height: 500px;
     flex:60%;
-    margin: 10px 50px;
+    margin: 10px 00px 10px 50px;
 }
 
 .picsection{ /*This is the container*/
@@ -143,6 +143,7 @@ h1{
     width: auto;
 }
 .contactform{
+    background-color: white;
     text-align: left;
     /*Needed to specify width then set margin to auto to center*/
     width: 300px;
