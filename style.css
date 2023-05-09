@@ -59,7 +59,7 @@ nav a{
     color:white;
     width:250px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%); /*This makes it centered no matter what view*/
@@ -148,6 +148,7 @@ h1{
     /*Needed to specify width then set margin to auto to center*/
     width: 300px;
     margin: auto;
+    
 
 }
 footer{
