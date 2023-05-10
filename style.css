@@ -117,12 +117,12 @@ h1{
     width: 300px;
     margin: auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .contactform {
         width: auto;
     }
-    .textsection, .picsection {
-        flex: 100%;
+    .container {
+        background-size: contain;
     }
   }
   
@@ -143,13 +143,28 @@ footer li {
     float:left;
 }
 
-#parent {
-    background-image: url("icelandbackground.jpg");
+.container{
     width: 100%;
-    height: 500px;
+    height: 400px;
+    background-image: url('icelandbackground_text.png');
+    background-repeat: no-repeat;
+}
+
+.picture{
+    max-width:100%;
+    height:auto;
+    background-size: contain;
+
+}
+ /*
+ 
+#parent {
+    background-image: url("icelandbackground_text.png");
+    width: auto;
+    height: 400px;
     background-size: cover;
 }
-  
+
 #overlay {
     width: 100%;
     height: 100%;
@@ -158,8 +173,7 @@ footer li {
     justify-content: center;
     align-items: center;
 }
-  
-  /*
+
   #content {
     width: 300px;
     height: 200px;
