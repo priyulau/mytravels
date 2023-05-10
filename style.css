@@ -8,7 +8,7 @@
 header{
     background-color: #b4b8a6;
     height: 300px;
-}
+    overflow-x: hidden;}
 
 nav{
     padding:10px;
@@ -156,6 +156,7 @@ footer li {
     height: 400px;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
 }
 
 /*Adds opacity and centers block in middle*/
@@ -168,7 +169,7 @@ footer li {
     align-items: center;
 }
 #content {
-    width: 100%;
+    max-width: 200px;
     height: 200px;
     /*background-color: #b4b8a6;*/
     opacity:1;
