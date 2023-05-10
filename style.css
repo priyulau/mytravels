@@ -8,7 +8,6 @@
 header{
     background-color: #b4b8a6;
     height: 300px;
-
 }
 
 nav{
@@ -37,7 +36,7 @@ nav{
     align-items: center;
     background-color: white;
 }
-li{
+nav li{
     display: inline;
     padding: 0px 10px 0px 10px;
 }
@@ -111,6 +110,82 @@ h1{
     text-align: center;
 }
 
+.contactform{
+    background-color: white;
+    text-align: left;
+    /*Needed to specify width then set margin to auto to center*/
+    width: 300px;
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .contactform {
+        width: auto;
+    }
+    .textsection, .picsection {
+        flex: 100%;
+    }
+  }
+  
+footer{
+    background-color: #b4b8a6;
+    position: relative;
+    bottom:0;
+    margin-top: 50px;
+    height:120px;
+    width:100%;
+    color: white;
+    font-size: small;
+    padding: 20px;
+}
+
+footer li {
+    list-style: none;
+    float:left;
+}
+
+#parent {
+    background-image: url("icelandbackground.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+  
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  /*
+  #content {
+    width: 300px;
+    height: 200px;
+    background-color: #b4b8a6;
+    opacity:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+  }*/
+
+.searchbutton{
+    width: 30px;
+  }
+
+.search{
+    float:right;
+  }
+
+.icon{
+    width: 20px;
+    height: 20px;
+    float:right;
+    margin: 5px;
+}
+
 .row{
     display:flex;
 }
@@ -136,73 +211,3 @@ h1{
     height: 350px;
     width: auto;
 }
-.contactform{
-    background-color: white;
-    text-align: left;
-    /*Needed to specify width then set margin to auto to center*/
-    width: 300px;
-    margin: auto;
-}
-@media screen and (max-width: 600px) {
-    .contactform {
-        width: auto;
-    }
-    .textsection, .picsection {
-        flex: 100%;
-    }
-  }
-  
-footer{
-    background-color: #b4b8a6;
-    position: relative;
-    bottom:0;
-    margin-top: 50px;
-    height:100px;
-    width:100%;
-    color: white;
-    text-align: center;
-    font-size: small;
-}
-
-#parent {
-    background-image: url("korea_foodstall.jpg");
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-  }
-  
-  #overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #content {
-    width: 200px;
-    height: 100px;
-    background-color: rgba(0,0,0,0.9);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-  }
-
-  .searchbutton{
-    width: 30px;
-  }
-
-  .search{
-    float:right;
-  }
-
-  .icon{
-    width: 20px;
-    height: 20px;
-    float:right;
-    margin: 5px;
-  }
-
