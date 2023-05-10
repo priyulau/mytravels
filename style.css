@@ -142,13 +142,22 @@ h1{
     /*Needed to specify width then set margin to auto to center*/
     width: 300px;
     margin: auto;
-
 }
+@media screen and (max-width: 600px) {
+    .contactform {
+        width: auto;
+    }
+    .textsection, .picsection {
+        flex: 100%;
+    }
+  }
+  
 footer{
     background-color: #b4b8a6;
     position: relative;
     bottom:0;
-    height:50px;
+    margin-top: 50px;
+    height:100px;
     width:100%;
     color: white;
     text-align: center;
