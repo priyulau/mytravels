@@ -62,7 +62,6 @@ a{
     height: 150px;
     object-fit: contain /*Keeps image aspect ratio*/
 }
-/*
 .bar{
     background-color: white;
     display:inline-grid;
@@ -71,7 +70,7 @@ a{
     width:100%;
     padding: 30px;
     overflow:scroll;
-}*/
+}
 
 .button{
     background-color: #b4b8a6;
