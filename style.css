@@ -117,9 +117,6 @@ h1{
     width: 300px;
     margin: auto;
 }
-
-@media screen and (max-width: 900px) {
-}
   
 footer{
     background-color: #b4b8a6;
@@ -194,22 +191,9 @@ footer li {
     margin: 5px;
 }
 
-.row{
+.centered{ /*This is the container*/
     display:flex;
-}
-.textsection{
-    background-color: none;
-    height: 500px;
-    flex:60%;
-    margin: 10px 00px 10px 50px;
-}
-
-.picsection{ /*This is the container*/
-    background-color: none;
-    flex: 40%;
-    margin: 50px;
     /*Centered picture horizontally*/
-    display: flex;
     justify-content: center;
     /*Centered picture vertically*/
     align-items: center;
@@ -219,3 +203,20 @@ footer li {
     height: 350px;
     width: auto;
 }
+
+.column {
+    float: left;
+    width: 47%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
