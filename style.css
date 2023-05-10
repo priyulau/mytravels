@@ -27,15 +27,14 @@ nav{
 .bannerbox{
     background-color: white;
     height:200px;
-    width:100%;
+    width:auto;
     background-size: contain;
-    display: flex;
-    justify-content: center;
 }
 .bannerimg{
     height:200px;
     display: flex;
-    width: auto;
+    width: 100%;
+    justify-content: center;
 }
 nav li{
     display: inline;
@@ -220,11 +219,8 @@ footer li {
     .column {
       width: 100%;
     }
-    .banner{
-        background-image: contain;
-    }
-    nav {
-        display: ;
+    header{
+        height: 260px;
     }
     .search{
         display:none;
