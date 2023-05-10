@@ -29,6 +29,7 @@ nav{
     height:200px;
     width:auto;
     background-size: contain;
+    overflow-x:hidden;
 }
 .bannerimg{
     height:200px;
