@@ -2,19 +2,32 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
     box-sizing: border-box; /*Makes sure that padding and boarder are included in total w and h*/
+    margin:0;
 }
 
 header{
-    background-color: black;
-    height: 100px;
-    position:relative;
+    background-color: #b4b8a6;
+    height: 300px;
+
 }
 
 nav{
-    position:absolute;
-    bottom:0;
-    right:0;
-    padding-bottom: 10px;
+    padding:10px;
+    background-color: #b4b8a6;
+    height:60px;
+    position:sticky;
+    top:0;
+}
+
+.iconbar{
+    height:50px;
+    background-color: #b4b8a6;
+    padding-right:20px;
+}
+
+.searchbox{
+    float:right;
+    width: 150px;
 }
 
 li{
@@ -23,7 +36,9 @@ li{
 }
 
 li:hover{
-    text-decoration: underline;
+    background-color: white;
+    color: #b4b8a6;
+    font-weight: 200;
 }
 
 a{
@@ -51,7 +66,7 @@ a{
 }
 
 .button{
-    background-color: black;
+    background-color: #b4b8a6;
     color:white;
     margin: 15px;
     border-radius: 5px;
@@ -123,19 +138,20 @@ h1{
 
 }
 footer{
-    background-color: black;
-    position: fixed;
+    background-color: #b4b8a6;
+    position: relative;
     bottom:0;
-    height:30px;
+    height:50px;
     width:100%;
-    color: white;
+    color: black;
     text-align: center;
+    font-size: small;
 }
 
 #parent {
     background-image: url("korea_foodstall.jpg");
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-size: cover;
   }
   
@@ -158,3 +174,19 @@ footer{
     align-items: center;
     font-size: large;
   }
+
+  .searchbutton{
+    width: 30px;
+  }
+
+  .search{
+    float:right;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+    float:right;
+    margin: 5px;
+  }
+
