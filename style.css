@@ -24,17 +24,18 @@ nav{
     padding-right:20px;
 }
 
-.searchbox{
-    float:right;
-    width: 150px;
-}
-
-.banner{
+.bannerbox{
+    background-color: white;
     height:200px;
+    width:100%;
+    background-size: contain;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: white;
+}
+.bannerimg{
+    height:200px;
+    display: flex;
+    width: auto;
 }
 nav li{
     display: inline;
@@ -127,7 +128,7 @@ footer{
     width:100%;
     color: white;
     font-size: small;
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 footer li {
@@ -215,8 +216,21 @@ footer li {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
+    .banner{
+        background-image: contain;
+    }
+    nav {
+        display: ;
+    }
+    .search{
+        display:none;
+    }
+    .iconbar{
+        display:none;
+    }
   }
+
