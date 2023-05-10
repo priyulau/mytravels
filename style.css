@@ -57,6 +57,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    object-fit: cover;
+}
+
 .thumbnail{
     width: 150px;
     height: 150px;
